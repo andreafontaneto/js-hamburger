@@ -1,6 +1,6 @@
-const hamburgerMenu = document.getElementsByClassName('fa-bars');
-const hamburgerMenuList = document.getElementsByClassName('hamburger-menu');
-const close = document.getElementsByClassName('close');
+const hamburgerMenu = document.querySelector('.header-right > a');
+const hamburgerMenuList = document.querySelector('.hamburger-menu');
+const closeIcon = document.querySelector('.close');
 
 
 
