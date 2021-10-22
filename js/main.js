@@ -21,12 +21,14 @@ console.log(closeIcon);
 hamburgerMenu.addEventListener('click', function(){
   //..aggiungi la classe "active" al div con classe "hamburger-menu"
   hamburgerMenuList.classList.add('active')
+  console.log('hai cliccato l\'icona hamburger menu')
 });
 
 //al click dell'icona X di chiusura..
 closeIcon.addEventListener('click', function(){
   //..rimuovi la classe "active" al div con classe "hamburger-menu"
   hamburgerMenuList.classList.remove('active')
+  console.log('hai cliccato l\'icona di chiusura')
 });
 
 
